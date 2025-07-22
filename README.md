@@ -162,7 +162,21 @@ Before performing analysis, I ensured that the data was clean and free from null
 UPDATE orders
 SET total_amount = COALESCE(total_amount, 0);
 ```
+## 💡 Business Problems Solved
+This project tackles 20 real-world business problems commonly faced by food delivery platforms like Dishcover. These include insights such as:
 
+Top ordered dishes by a customer
+Order patterns by time of day and weekday
+Customer segmentation and lifetime value
+Restaurant revenue ranking
+Rider delivery efficiency and earnings
+City-wise revenue analysis
+Seasonal trends and churn detection
+
+All SQL solutions for these problems are neatly documented in the file:
+
+**👉 20 Business Problems Solution.sql**
+You can walk through each query there to understand the logic and analysis behind them.
 
 
 ## ✅ Conclusion
