@@ -1,0 +1,55 @@
+## End-to-End Guide for My SQL Project – Dishcover
+This guide walks through everything I did to build a SQL project based on Dishcover, a fictional food delivery company. I’ve broken down each step from setting up the database to solving real-world business problems using SQL. This helped me practice real-time data handling and analytical thinking.
+
+## Step 1: Setting Up PostgreSQL and pgAdmin 4
+** 1.	Installing PostgreSQL:**
+First, I downloaded and installed PostgreSQL from the official website. During setup, I made sure to set a password for the default postgres user (you’ll need it later).
+2.	Installing pgAdmin 4:
+I also installed pgAdmin 4, which is a graphical tool that makes it easier to manage PostgreSQL databases without writing commands for everything.
+3.	Launching pgAdmin 4:
+After setup, I opened pgAdmin 4 and logged in using the password I created during the PostgreSQL installation.
+
+## Step 2: Creating the Database
+1.	Setting Up My Database:
+Inside pgAdmin 4, I right-clicked on "Databases" and created a new one called dishcover_db. I kept the owner as postgres.
+
+## Step 3: Creating Tables
+1.	Building the Tables:
+Under Schemas → Tables, I created tables like restaurants, customers, orders, riders, and deliveries based on my project schema.
+I made sure to define columns with the right data types, and added primary/foreign keys wherever needed.
+
+## Step 4: Importing Data
+1.	Getting the Data Ready:
+I had all my data in CSV files. I double-checked the format to match the column structure I used while creating tables.
+2.	Importing in pgAdmin:
+To load the data, I right-clicked each table, went to "Import/Export", chose "Import", selected the CSV file, mapped the columns correctly, and ran the import. That’s how my tables got filled with data.
+
+## Step 5: Checking for Null Values
+1.	Finding Missing Data:
+I used SQL queries in the query tool to find any null values in the tables. This helped me understand if anything was incomplete.
+2.	Handling Nulls:
+Based on the situation, I either removed the rows, filled in the missing values, or flagged them for further review.
+
+## Step 6: Doing Exploratory Data Analysis (EDA)
+1.	Getting to Know the Data:
+I ran basic SQL queries to check data distribution, unique values, and general structure—like how many records exist in each table.
+2.	Visualizing the Data:
+I used pgAdmin’s options and sometimes exported the data to Excel or Python to create bar charts, histograms, etc., just to make sense of trends visually.
+
+## Step 7: Basic Data Analysis
+1.	Running Basic Queries:
+I started with simple queries—like total number of orders, average order value, and which restaurants/customers were the most active.
+2.	Summarizing Key Insights:
+I tracked core metrics like total revenue, number of customers, and total orders. These helped frame the business performance of Dishcover.
+
+## Step 8: Solving the 20 Business Questions
+1.	Understanding the Questions:
+I referred to the 20 business questions designed to test practical SQL skills in a realistic setup.
+2.	Breaking Down Each Problem:
+For every question, I figured out which tables and columns were needed, and built the query step by step—testing each part to make sure the logic and results made sense.
+3.	Saving My Work:
+I kept all my SQL queries documented neatly so I could reuse or explain them later if needed.
+4.	Presenting the Results:
+Once I was done, I organized all the answers and outputs. I’m planning to turn it into a simple dashboard or report so it looks professional when I share it.
+________________________________________
+
