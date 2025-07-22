@@ -120,7 +120,7 @@ Possibly integrate Tableau for cross-platform visualization experience
 
 ## 👩‍💻 About Me
 
-I’m a final-year B.Tech CSE student exploring data analytics, full-stack development, and cybersecurity. This project helped me practice:
+I’m a final-year B.Tech CSE student exploring data analytics, full-stack development. This project helped me practice:
 
 * Real-life database modeling
 * Data cleaning
