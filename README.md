@@ -18,6 +18,7 @@ In addition to SQL analysis, I’ve also created a **Power BI dashboard** to vis
 * ✅ Cleaned and handled null/missing data
 * ✅ Solved **20 real-world business problems** using SQL (e.g., customer churn, top dishes, city rankings)
 * ✅ Built an interactive **Power BI dashboard** to visualize key business insights
+* 
 
 ---
 ## 📚 What I Learned from This Project
