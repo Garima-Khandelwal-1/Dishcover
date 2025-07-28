@@ -36,18 +36,32 @@ Through Dishcover, I didn’t just write SQL queries—I learned how to think li
 This project also helped me visualize insights using Power BI, making the data easier to understand for non-technical people.
 
 ---
-## 📊 Power BI Dashboard Highlights
+## 📊 Power BI Dashboard – Dishcover
 
-To make the insights more interactive and visually clear, I designed a **Power BI dashboard** using the Dishcover dataset. It includes:
+To make the insights more interactive and visually compelling, I designed a **Power BI dashboard** for the **Dishcover** project using real-world food delivery data. This dashboard provides a clear overview of key business metrics through intuitive visuals:
 
-* 🔝 **Top 10 most ordered dishes**
-* 🏙️ **Order distribution by city and restaurant**
-* ⏱️ **Peak order time slots**
-* 📉 **Monthly sales trends**
-* 🛍️ **Customer segmentation (Gold/Silver)**
-* 🛵 **Rider performance and delivery time metrics**
+### 📸 Dashboard Preview
 
-> You can view the `.pbix` file or dashboard screenshots in this repo.
+![Dishcover Power BI Dashboard](dashboard/DishcoverDashboard.jpg)
+
+### 🔍 Key Highlights:
+
+- 💰 **Total Sales**: ₹987M across 150K orders  
+- 🍛 **Category Breakdown**:
+  - **Veg**: ₹122M | ⭐ 122M ratings  
+  - **Non-Veg**: ₹106M | ⭐ 106M ratings  
+  - **Other**: ₹24M | ⭐ 24M ratings  
+- 🏙️ **Top 50 Cities by Order Amount**  
+  *(e.g., Tirupati, Pune, Delhi, Raipur, Bikaner)*
+- 📈 **Year-wise Sales Trend**:
+  - Peak in 2018 (₹0.41bn)
+  - Decline observed in 2020 (₹0.14bn)
+- 📦 **Quantity Ordered**: 2M units  
+- ⭐ **Total Ratings**: 148K  
+
+Users can toggle between **Amount** and **Quantity** views. Filters like **Top 5/10/20/50/100 cities** enhance interactivity.
+
+> 📁 You can find the `.pbix` file or dashboard screenshots in this repository under the `dashboard/` folder.
 
 ---
 
