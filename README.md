@@ -42,7 +42,8 @@ To make the insights more interactive and visually compelling, I designed a **Po
 
 ### 📸 Dashboard Preview
 
-![Dishcover Power BI Dashboard](dashboard/DishcoverDashboard.jpg)
+![Dishcover Power BI Dashboard](dashboard/(https://github.com/user-attachments/assets/bc6a5669-bb38-458a-970d-324056c773bf)
+)
 
 ### 🔍 Key Highlights:
 
